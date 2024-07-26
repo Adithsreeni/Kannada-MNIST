@@ -1,17 +1,17 @@
-Kannada-MNIST-Classification-Problem
+# Kannada-MNIST-Classification-Problem
 
-Problem Statement
+## Problem Statement:
 
 The task is to build a machine learning model capable of correctly classifying grayscale images of handwritten digits (0 to 9) and this is an extension to the classic MNIST dataset where we deal with the Kannada Numerals. The goal is to achieve high accuracy in correctly identifying the digits using various classification algorithms and techniques. The dataset that is used can be referred from: https://www.kaggle.com/datasets/higgstachyon/kannada-mnist
 
-Libraries Used
+## Libraries Used:
 
 numpy
 scikit-learn
 matplotlib
 
-Approach:
-Data Collection and Preprocessing:
+## Approach:
+### Data Collection and Preprocessing:
 
 1. Extracting the dataset from the provided npz file, containing 60,000 training and 10,000 test images, each with a size of 28x28 pixels.
 Normalizing the pixel values to a range of 0 to 1 and reshape the images for further processing.
