@@ -1,2 +1,0 @@
-# Kannada-MNIST
-Kannada-MNIST
